@@ -1,0 +1,22 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.domhey.treefinder.TreeFinderStartup" >
+
+    <item
+        android:id="@+id/removeTree"
+        android:orderInCategory="100"
+        android:title="Baum entfernen"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/uploadTree"
+        android:orderInCategory="100"
+        android:title="Baum hochladen"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/syncTree"
+        android:orderInCategory="100"
+        android:title="Bäume synchronisieren"
+        app:showAsAction="always"/>
+    
+</menu>
